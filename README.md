@@ -8,4 +8,4 @@ conda activate c3s-cmip6-update-tests
 jupyter lab cmip6_subset_checks.ipynb
 ```
 
-Run all cells in order. The final table shows the outcome of opening each fixture and running both subset requests. The notebook prints the package versions and any warnings or errors.
+Run all cells in order. The final cell uses `ipytest` to collect and run the pytest tests defined in the notebook. Pytest reports the results for xarray decoding, time subsetting, bbox subsetting, and the expected bbox error on a projected grid without geographic coordinates.

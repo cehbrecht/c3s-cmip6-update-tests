@@ -7,6 +7,7 @@ dependencies:
   - clisops=0.18.1
   - xarray
   - numpy
-  - pandas
   - netcdf4
   - jupyterlab
+  - pytest
+  - ipytest
