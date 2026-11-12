@@ -2,8 +2,8 @@
 
 Synthetic CMIP6 NetCDF fixtures for checking xarray decoding and clisops processing.
 
-- [Subsetting](notebooks/qc-subsetting.ipynb) checks combined time and geographic bounding-box requests.
-- [Regridding](notebooks/qc-regridding.ipynb) checks bilinear remapping through xESMF and ESMPy.
+- [Subsetting](notebooks/cmip6-subsetting-checks.ipynb) checks combined time and geographic bounding-box requests.
+- [Regridding](notebooks/cmip6-regridding-checks.ipynb) checks bilinear remapping through xESMF and ESMPy.
 
 ```sh
 conda env create -f environment.yml
